@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | PostWize</title>
+    <link rel="stylesheet" href="styles/dashboard.css">
+    <link rel="stylesheet" href="styles/scrollbar.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <div class="app">
+        
+        <div class="nav">
+            <img class='logo' src="assets/logo.png" alt="PostWize">
+            <img class="user" src="assets/profile.jpg" alt="Your profile" title="Your profile">
+            <span style="font-weight:bold">John Doe</span>
+            <span>johndoe@gmail.com</span>
+           
+            <div class="options">
+                <a>Search jobs</a>
+                <a>Dashboard</a>
+                <a>Inbox</a>
+                <a>Calendar</a>
+                <a>Settings</a>
+            </div>
+            
+            <div class="options">
+                <hr>
+                <a>Help Center</a>
+                <a>Sign Out</a>
+            </div>
+            
+        </div>
+
+        <div class="main">
+            <div class="account">
+                <h1>Your Account</h1>
+                <div class="container-2">
+                    <button class="account">
+                        Applications (1)
+                    </button>
+
+                    <button class="account">
+                        Offers (0)
+                    </button>
+
+                    <button class="account">
+                        Interviews (2)
+                    </button>
+                </div>
+            </div>
+
+            <div class="dash">
+
+                <h1>Dashboard</h1>
+                <div class="container">
+                    <h2>Uber</h2>
+                    <p>Software Engineer, San Francisco</p>
+                    <span>Status: Applied</p>
+                </div>
+                <br>
+                <div class="container">
+                    <h2>Intel</h2>
+                    <p>Backend Engineer, Washington</p>
+                    <span>Status: Application in progress</p>
+                </div>
+
+                <br><span style="color:#a6a6a6">Load more</span>
+                
+            </div>
+            
+        </div>
+
+        <div class="notif">
+            <h1>🔔 Notifications</h1>
+            <div class="notif-parent">
+                <div class="notif-img">
+                    <img src="assets/companies/cb.png" alt="">
+                </div>
+                <div class="notif-text">
+                    <p>Sarah from Chase Bank has invited you to an interview.</p>
+                    <span class="notif-span">Reply</span>
+                </div>
+            </div>
+            <br><hr><br>
+            <div class="notif-parent">
+                <div class="notif-img">
+                    <img src="assets/companies/in.png" alt="">
+                </div>
+                <div class="notif-text">
+                    <p>Your application status for LinkedIn has updated.</p>
+                    <span class="notif-span">View</span>
+                </div>
+            </div>
+            
+            <br><hr><br>
+            <div class="notif-parent">
+                <div class="notif-img">
+                    <img src="assets/companies/hulu.jpg" alt="">
+                </div>
+                <div class="notif-text">
+                    <p>John from Hulu has invited you to an interview.</p>
+                    <span class="notif-span">Reply</span>
+                </div>
+            </div>
+            <br>
+            <span class="notif-span">No new notifications</span>
+        </div>
+
+    </div>
+
+</body>
+    <script src="dashboard.js"></script>
+</html>
