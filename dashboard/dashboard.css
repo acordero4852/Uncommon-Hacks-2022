@@ -1,0 +1,17 @@
+.app {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.6fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: px;
+    }
+    
+.nav { 
+    grid-area: 1 / 1 / 2 / 2;
+}
+.main {
+    grid-area: 1 / 2 / 2 / 3;
+}
+.notif {
+    grid-area: 1 / 3 / 2 / 4;
+}
